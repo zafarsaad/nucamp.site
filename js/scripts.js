@@ -5,8 +5,7 @@ $(function () {
             $(".carousel").carousel("pause");
             $("#carouselButton").children("i").removeClass("fa-pause");
             $("#carouselButton").children("i").addClass("fa-play");
-        } 
-        else {
+        } else {
             $(".carousel").carousel("cycle");
             $("#carouselButton").children("i").removeClass("fa-play");
             $("#carouselButton").children("i").addClass("fa-pause");
