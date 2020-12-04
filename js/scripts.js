@@ -11,4 +11,22 @@ $(function () {
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
+    $('#reserveButton').click(function(){
+        $("#reserveModal").modal('show');
+    });
+    $('#loginButton').click(function(){
+        $('#loginModal').modal('show');
+    })
 });
+
+// jQuery(document).ready(funtion() {
+//     jAlert('Testing this out');
+// });
+
+// $(document).ready( function() {
+//     alert('Example of a basic alert box in jquery', 'jquery basic alert box');
+// });
+
+// $(function() {
+//     alert('Example of a basic alert box in jquery', 'jquery basic alert box');
+//     });
